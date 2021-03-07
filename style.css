@@ -1,0 +1,179 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  background-color:#161616;
+}
+.left_area{
+  background: linear-gradient(#0F0F0F,#161616);
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+}
+.left_area .profile_image{
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.left_area span{
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  padding-left: 30px;
+  text-transform: capitalize;
+  text-align: left;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+.left_area span:hover{
+  background: #474747;
+}
+a:link{
+  text-decoration: none;
+  font-weight: 900;
+}
+.akubox{
+  background-color: #474747;
+  width: 60%;
+  height: 70%;
+  top: 8%;
+  left: 130px;
+  position: absolute;
+  border-radius: 20px;
+  transform: translate(300px, 50px);
+}
+.akuimg{
+  width: 200px;
+  height: 200px;
+  right: 0%;
+  top: 2%;
+  position: fixed;
+}
+.akutext h3{
+  color: #F1F1F1;
+  text-transform: capitalize;
+  text-align: left;
+  font-family: "calibri" sans-serif;
+  font-size: 30px;
+  position: relative;
+  width: 300px;
+  margin-left: 15px;
+  margin-top: 40px;
+  text-shadow: 5px 3px 4px #0F0F0F;
+}
+.akutext h4{
+  color: #FFFFFF;
+  text-transform: capitalize;
+  text-align: left;
+  font-family: "myriad pro" sans-serif;
+  font-size: 75px;
+  position: relative;
+  width: 1000px;
+  margin-left: 15px;
+  margin-top: -30px;
+  text-shadow: 5px 3px 4px #0F0F0F;
+}
+.akutext p{
+  color: #FFFFFF;
+  width: 850px;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 30px 30px;
+  margin-top: 40px;
+  text-align: right;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 1.5px #FFFFFF;
+}
+.pendidikantext h3{
+  color: #F1F1F1;
+  text-transform: capitalize;
+  text-align: left;
+  font-family: "calibri" sans-serif;
+  font-size: 60px;
+  position: relative;
+  width: 600px;
+  margin-left: 25px;
+  margin-top: 55px;
+  text-shadow: 5px 3px 4px #0F0F0F;
+}
+ul.a {
+  color: #FFFFFF;
+  list-style-type: circle;
+  text-transform: capitalize;
+  line-height: 45px;
+  font-size: 25px;
+  width: 400px;
+  margin-left: 60px;
+}
+.jadwalbox{
+  background-color: #474747;
+  width: 60%;
+  height: 75%;
+  top: 10%;
+  left: 130px;
+  position: fixed;
+  border-radius: 20px;
+  transform: translate(300px, 0px);
+}
+.jadwaltext h3{
+  color: #F1F1F1;
+  text-transform: capitalize;
+  text-align: center;
+  font-family: "calibri" sans-serif;
+  font-size: 60px;
+  position: fixed;
+  width: 100%;
+  margin-left: 25px;
+  margin-top: -13%;
+  text-shadow: 5px 3px 4px #0F0F0F;
+}
+.jadwaltext table,th,td{
+  width: 80%;
+  margin-top: 18%;
+  margin-left: 10%;
+  border: 1px white;
+  border-collapse: collapse;
+  border-radius: 5px;
+  padding: 9px;
+}
+.jadwaltext th,td {
+  text-transform: capitalize;
+  color: #FFFFFF;
+}
+.jadwaltext th{
+  background-color: #303030;
+}
+.jadwaltext tr{
+background-color: #6C6C6C;
+}
+.jadwaltext tr:nth-child(even){
+  background-color: #5D5C5C;
+}
+.jadwaltext tr:hover{
+  background-color: #999999;
+}
+.aktivitastext h3{
+  color: #F1F1F1;
+  text-transform: capitalize;
+  text-align: left;
+  font-family: "calibri" sans-serif;
+  font-size: 60px;
+  position: relative;
+  width: 600px;
+  margin-left: 25px;
+  margin-top: 55px;
+  text-shadow: 5px 3px 4px #0F0F0F;
+}
+ul.b {
+  color: #FFFFFF;
+  list-style-type: circle;
+  text-transform: capitalize;
+  line-height: 45px;
+  font-size: 25px;
+  width: 400px;
+  margin-left: 60px;
+}
